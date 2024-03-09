@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>QR code generator</title>
+		<meta name="description" content="">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<link rel="shortcut icon" href="img/favicon/favicon.png" type="image/png">
+		<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#36A26B">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#36A26B">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#36A26B">
+
+	</head>
+	<body>
+
+	<div class="container">
+		<p class="Tittle">Enter text or URL</p>
+		<input type="text" class="qr_input" id="qrTextInput" placeholder="Enter text or URL">
+		<p id="errorMessage" class="error_message">Your text can't be less than 0 words</p>
+		<div id="qrImg">
+			<img src="" alt="Your QR Code" id="qrImage">
+		</div>
+		<button class="qr_btn" id="qrBtn">Generate QR Code</button>
+	</div>
+
+
+
+
+		<!-- libs -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic">
+		<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/adaptive.css">
+		<script src="js/common.js"></script>
+	</body>
+	</html>
